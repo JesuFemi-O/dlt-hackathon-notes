@@ -124,7 +124,7 @@ The goal is to explore creative use cases of CDC and data lake-style architectur
 1. Clone this repo
 2. Run `docker-compose up -d`
 3. Install and run `CDCraft` to simulate activity
-4. Observe raw CDC data land in MinIO
+4. use dlt to move raw CDC data from postgres and land them into MinIO
 5. Use SQLPad, DuckDB, or other tools to analyze the data
 6. Build dashboards, generate insights, or tell a story!
 
